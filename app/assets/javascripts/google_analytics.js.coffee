@@ -36,6 +36,8 @@ class @GoogleAnalytics
   @documentDomainIncludes: (str) ->
     document.domain.indexOf(str) isnt -1
 
+  $(document).on('ready page:change'` => `$(document).on('ready turbolinks:load'
+
   @analyticsId: ->
     # your google analytics ID(s) here...
     'UA-91609216-1'
